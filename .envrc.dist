@@ -1,0 +1,21 @@
+
+# GCP infra set up - CHANGE ME!
+export PROJECT_ID=YOUR-PROJECT
+export ACCOUNT=YOUR_USER@gmail.com
+
+# Network part
+export RANGE_NAME=my-allocated-range-default
+export DESCRIPTION="peering range for alloydb-service"
+
+
+# Alloy
+export CLUSTER=my-alloydb-cluster
+export DB_PASS=my-alloydb-pass
+export INSTANCE=my-alloydb-instance
+export REGION=us-central1
+
+# aloydb connect
+
+export ZONE=us-central1-a
+#export PROJECT_NUM=$(gcloud projects describe $PROJECT_ID --format="value(projectNumber)")
+export VM_INSTANCE=alloydb-proxy-vm
